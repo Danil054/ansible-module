@@ -1,0 +1,7 @@
+---
+# tasks file for fcreate_role
+- name: Create file with content
+  ansible.builtin.fcreate_module:
+    path: "{{ VAR_PATH  }}"
+    content: "{{ VAR_CONTENT }}"
+

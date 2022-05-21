@@ -1,0 +1,5 @@
+---
+# defaults file for fcreate_role
+VAR_PATH: "/var/tmp/tstfile"
+VAR_CONTENT: "Test content"
+
